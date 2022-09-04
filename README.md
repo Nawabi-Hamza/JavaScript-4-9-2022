@@ -6,6 +6,7 @@ onkeypress  :for type a key word (a,b...)
 onmouseover :for bring mouse on element
 ononline    :for become online
 onoffline   :for bacome offline
+onplay      :for playing video
 Math.random
 Math.floor  
 addEventListener('' , function(){
