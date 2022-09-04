@@ -19,8 +19,10 @@ function useraclcik(){
     alert("User A Clicked");
     imgA.src="./pics/"+intnum+".png";
     imgB.src="./pics/"+intnumx+".png";
+    imgA.style="box-shadow:4px 3px 12px red;"
+    imgB.style=" box-shadow:4px 3px 12px red;"
     total.innerHTML = intnum+intnumx;
-    document.getElementById('UA').style="display:none;"
+    document.getElementById('UA').style="display:none; "
     document.getElementById('UB').style="display:block;"
 }
 
@@ -40,8 +42,10 @@ function userbclcik(){
     alert("User A Clicked");
     imgA.src="./pics/"+intnum+".png";
     imgB.src="./pics/"+intnumx+".png";
+    imgA.style="box-shadow:4px 3px 12px blue;"
+    imgB.style=" box-shadow:4px 3px 12px blue;"
     totalx.innerHTML = intnum+intnumx;
-    document.getElementById('UB').style="display:none;"
-    document.getElementById('UA').style="display:block;"
+    document.getElementById('UB').style="display:none; "
+    document.getElementById('UA').style="display:block; "
 
 }

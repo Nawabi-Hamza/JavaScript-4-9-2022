@@ -28,3 +28,10 @@ function mover(){
     showround.innerHTML=c;
     
 }
+
+var btn = document.getElementById('butt')
+btn.addEventListener('click' , mufunc);
+
+function mufunc(){
+    alert('im add event listner')
+}
