@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="boot.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <center>New Game<br><br><br>
+    <div class="row">
+        <div class="col">
+            User A: <b id="totalA"></b>
+        </div>
+        <div class="col">
+            <img src="./pics/1.png" alt="" id="imgA"><br>
+            <button class="btn btn-info p-2 m-5" 
+            onclick="useraclcik()" id="UA">User A</button>
+
+        </div>
+        <div class="col">
+            <img src="./pics/1.png" alt="" id="imgB"><br>
+            <button class="btn btn-warning p-2 m-5" 
+            onclick="userbclcik()"  id="UB">User B</button>
+
+        </div>
+        <div class="col" style="direction:rtl; unicode-bidi: bidi-override;">
+           B resU: <b id="totalB"></b>
+        </div>
+    </div></center>
+</div>
+</body>
+<script src="game.js"></script>
+</html>
